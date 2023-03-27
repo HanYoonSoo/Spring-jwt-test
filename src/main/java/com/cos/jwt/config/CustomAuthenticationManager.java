@@ -13,6 +13,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @Component
 @RequiredArgsConstructor
 public class CustomAuthenticationManager implements AuthenticationManager {
